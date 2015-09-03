@@ -1,3 +1,4 @@
+package tarefa4;
 
 public class Noh {
 	public Object valor = null;
@@ -9,20 +10,18 @@ public class Noh {
 	}
 
 	public static void main(String[] args) {
-		Noh cabeca=new Noh("a");
+		Noh cabeca = new Noh("a");
 		cabeca.add("b");
 		cabeca.add("c");
 		System.out.println(cabeca);
-
 	}
-	private void add(Object conteudo)
-	{
-		if(this.proximo==null)
-		{
+
+	private void add(Object conteudo) {
+		// TODO Auto-generated method stub
+		if (this.proximo == null) {
 			proximo = new Noh(conteudo);
-		}
-		else
-		{
+
+		} else {
 			proximo.add(conteudo);
 		}
 	}
@@ -30,11 +29,13 @@ public class Noh {
 	public String toString() {
 		String str="";
 		str+=this.valor;
-		if(proximo!=null)
+		if (proximo!=null)
 		{
 			str+=proximo.toString();
 		}
-		return str;
+		// TODO Auto-generated method stub
+		return str ;
 	}
 
 }
+
