@@ -51,14 +51,14 @@ public class Animal implements Comparable<Animal>{
 	
 	@Override
 	public String toString() {
-		return "Animal= Nome: " + nome + ", Ra�a: " + raca + ", Idade: " + idade + ", Peso: " + peso ;
+		return "Animal= Nome: " + nome + ", Raça: " + raca + ", Idade: " + idade + ", Peso: " + peso ;
 	}
 
 	public String fazerBarulho()
 	{
 		return "O barulho feito foi ";
 	}
-	//Ordem por Peso
+	//Comparação por peso default
 
 	@Override
 	public int compareTo(Animal outro) {
