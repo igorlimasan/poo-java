@@ -9,16 +9,16 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) {
-		Gato cat1 = new Gato("Bola","Siamês", 7, 45);
+		Gato cat1 = new Gato("Bola","SiamÃªs", 7, 45);
 		Gato cat2 = new Gato("Quadrado","Persa", 6, 150);
-		Cachorro dog1 = new Cachorro("Triângulo","Husky", 1, 100);
-		Cachorro dog2 = new Cachorro("Pitágoras","Labrador", 2, 40);
+		Cachorro dog1 = new Cachorro("TriÃ¢ngulo","Husky", 1, 100);
+		Cachorro dog2 = new Cachorro("PitÃ¡goras","Labrador", 2, 40);
 		ManadaSustenido manas = new ManadaSustenido();
 		ManadaVirgula manav =new ManadaVirgula();
 		manav.adicionarAnimal(cat1);
 		manav.adicionarAnimal(cat2);
 		manav.adicionarAnimal(dog1);
-		
+		 
 		manas.adicionarAnimal(cat1);
 		manas.adicionarAnimal(cat2);
 		manas.adicionarAnimal(dog1);
