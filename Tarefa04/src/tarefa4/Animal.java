@@ -5,7 +5,7 @@ public class Animal implements Comparable<Animal>{
 	private String raca;
 	private int idade;
 	private int peso;
-	
+	 
 	
 	
 	
